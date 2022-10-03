@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer';
 import Navbar from './Navbar'
 import Sidebar from './Sidebar';
 
@@ -10,6 +11,10 @@ const MasterLayout = () => {
             <div id="layoutSidenav">
                 <div id="layoutSidenav_nav">
                     <Sidebar />
+                </div>
+                <div id="layoutSidenav_content">
+
+                    <Footer />
                 </div>
             </div>
         </div>
