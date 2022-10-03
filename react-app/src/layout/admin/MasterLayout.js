@@ -1,14 +1,19 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Sidebar from './Sidebar';
 
 const MasterLayout = () => {
     return(
-<<<<<<< HEAD
+
         <div className='sb-nav-fixed'>
             <Navbar />
+            <div id="layoutSidenav">
+                <div id="layoutSidenav_nav">
+                    <Sidebar />
+                </div>
+            </div>
         </div>
-=======
->>>>>>> 5ae6f1eba94815838a50bc9e9270f28f6bed4d51
+
     )
         
     
